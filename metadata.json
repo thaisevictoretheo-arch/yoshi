@@ -1,0 +1,6 @@
+{
+  "name": "YOSHI — Site Engine Absolute",
+  "description": "Ultra Agency Hardcore Site Engine: crie sites sob medida, de alta fidelidade visual, anti-template e prontos para venda.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

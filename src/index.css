@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --yoshi-bg: #050507;
+    --yoshi-surface-1: #0A0A0D;
+    --yoshi-surface-2: #101014;
+    --yoshi-surface-3: #14141A;
+    --yoshi-surface-4: #181820;
+    --yoshi-surface-5: #1D1D27;
+    --yoshi-text: #FFFFFF;
+    --yoshi-muted: #B8B8C7;
+    --yoshi-subtle: #9292A3;
+    --yoshi-pink: #FF2F87;
+    --yoshi-pink-hover: #FF4FA0;
+    --yoshi-pink-deep: #E91E75;
+    --yoshi-purple: #A855F7;
+    --yoshi-border: rgba(255, 255, 255, 0.08);
+    --yoshi-border-hover: rgba(255, 255, 255, 0.12);
+  }
+
+  body {
+    background-color: #050507;
+    color: #FFFFFF;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* Custom sleek scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #050507;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #181820;
+    border-radius: 9999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FF2F87;
+  }
+}
